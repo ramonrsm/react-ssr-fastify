@@ -1,0 +1,31 @@
+{
+  "name": "react-ssr-fastify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node-dev --quiet --transpile-only --exit-child --ignore-watch node_modules src/server"
+  },
+  "keywords": [],
+  "author": "ramonrsm",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/static": "^7.0.2",
+    "axios": "^1.6.8",
+    "fast-glob": "^3.3.2",
+    "fastify": "^4.26.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.2",
+    "@types/react": "^18.2.73",
+    "@types/react-dom": "^18.2.23",
+    "ts-node-dev": "^2.0.0"
+  }
+}
